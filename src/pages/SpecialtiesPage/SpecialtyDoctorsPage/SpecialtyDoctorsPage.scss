@@ -1,0 +1,32 @@
+.c-header-dinamic-verde {
+  background: linear-gradient(
+      180deg,
+      rgba(1, 175, 0, 0.8) 20%,
+      rgba(179, 219, 0, 0.8) 100%
+    ),
+    url('bgDoctor.svg') bottom repeat;
+  height: 196px;
+  border-bottom-left-radius: 28.8px;
+  border-bottom-right-radius: 28.8px;
+}
+
+.button-left-back {
+  position: absolute;
+  left: 0;
+  top: 45px;
+}
+
+.button-right-back {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.location-verde {
+  position: relative;
+  width: auto;
+  height: 25px;
+  color: #009800;
+  background-color: #00ad0014;
+  border-radius: 20px;
+}

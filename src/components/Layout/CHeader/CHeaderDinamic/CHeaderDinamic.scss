@@ -1,0 +1,20 @@
+.header-dinamic-container {
+  background: linear-gradient(180deg, #1e3c72 0%, #2a5298 100%);
+  height: 350px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* verde */
+.header-dinamic-container-2 {
+  background: linear-gradient(
+      180deg,
+      rgba(1, 175, 0, 0.8) 20%,
+      rgba(179, 219, 0, 0.8) 100%
+    ),
+    url('iconos/headerbg.svg') bottom repeat;
+  height: auto;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 15px 0;
+}

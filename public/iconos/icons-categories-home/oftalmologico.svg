@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{opacity:0.2;clip-path:url(#SVGID_4_);}
+	.st1{clip-path:url(#SVGID_4_);fill:#145691;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{clip-path:url(#SVGID_6_);}
+	.st4{clip-path:url(#SVGID_4_);fill:#1C5C9E;}
+	.st5{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+]]>
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="500" height="500"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st2">
+		<defs>
+			<rect id="SVGID_3_" width="500" height="500"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st1" d="M251.6,0c138.1,0,250,111.9,250,250c0,138.1-111.9,250-250,250c-138.1,0-250-111.9-250-250
+			C1.6,111.9,113.5,0,251.6,0"/>
+		<path class="st4" d="M246.6,0.1C110.8,2.7,1.6,113.6,1.6,250c0,136.4,109.2,247.3,245,249.9V0.1z"/>
+		<g class="st0">
+			<g>
+				<defs>
+					<rect id="SVGID_5_" x="38" y="125" width="391" height="213"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st3">
+					<defs>
+						<rect id="SVGID_7_" x="38" y="125" width="391" height="213"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<g style="clip-path:url(#SVGID_8_);">
+						<image style="overflow:visible;" width="391" height="213" xlink:href="27C115D2.png"  transform="matrix(1 0 0 1 38 125)">
+						</image>
+					</g>
+				</g>
+			</g>
+		</g>
+		<path class="st5" d="M64.4,240.1c2.4-2.9,4.5-6.3,7.3-8.7c32.8-27.4,68.2-50.8,108.4-66.2c22.9-8.8,46.6-14.3,71.4-13.1
+			c14.4,0.7,28.4,3.6,42,7.8c34.2,10.5,65,27.7,93.9,48.4c10.9,7.8,21.3,16.1,31.7,24.6c7.7,6.3,7.6,13.7,0,20.1
+			c-33.4,28.2-69.6,52.1-110.6,67.8c-22.5,8.6-45.7,14-70,12.9c-14.6-0.6-28.8-3.5-42.7-7.8c-34.2-10.5-65-27.7-94-48.3
+			c-10.2-7.3-20-15.1-29.8-23c-3-2.4-5.1-5.9-7.6-8.9V240.1z M244.5,308.3c35.9,0,65.3-29.2,65.5-65.2c0.2-36.1-29.3-65.6-65.4-65.7
+			c-36,0-65.3,29.2-65.5,65.2C178.9,278.7,208.4,308.3,244.5,308.3 M94,242.9c23.8,18.6,48.4,35.1,75.8,48.1
+			c-18.7-32.3-18.6-64,0-96.2C142.3,207.8,117.8,224.2,94,242.9 M319.1,291.1c27.6-13.2,52.2-29.5,75.5-47.9
+			c-10-10.9-63.5-44.8-75.1-47.7C337.8,227.1,337.8,258.7,319.1,291.1"/>
+		<path class="st5" d="M244.3,205.6c20.3-0.1,37.3,16.6,37.4,36.9c0.2,20.5-16.6,37.5-37.1,37.6c-20.5,0.1-37.4-16.8-37.4-37.3
+			C207.3,222.5,224,205.7,244.3,205.6 M219.3,242.1c-0.1,3.5,2,6.1,5.1,6.5c3.3,0.3,5.5-1.5,6.3-5.2c0.5-2.2,0.7-4.4,1.6-6.4
+			c2.4-5.4,7.1-7.3,12.7-7.9c3.6-0.5,5.5-3.1,5.1-6.3c-0.3-3.1-3-5.2-6.5-5C230.5,218.1,219.6,229.1,219.3,242.1"/>
+	</g>
+</g>
+</svg>

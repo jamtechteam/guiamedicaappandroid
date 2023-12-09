@@ -1,0 +1,44 @@
+.button-left-back {
+  position: absolute;
+  left: 0;
+  top: 45px;
+}
+
+.button-right-back {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.location-azul {
+  position: relative;
+  width: auto;
+  height: 32px;
+  color: #19518b;
+  border-radius: 20px;
+  background-color: #005ca210;
+}
+
+.location-verde {
+  position: relative;
+  width: auto;
+  height: 32px;
+  color: #009800;
+  background-color: rgb(224, 245, 224);
+  border-radius: 20px;
+}
+
+.c-header-dinamic-azul {
+  background: linear-gradient(
+      180deg,
+      rgba(14, 67, 150, 0.85) 20%,
+      rgba(46, 127, 210, 0.85) 100%
+    ),
+    url('bgDoctor.svg') bottom repeat;
+  height: 205px;
+}
+
+.c-header-dinamic-verde {
+  background: linear-gradient(180deg, #00ad00 0%, #b8dd2e 100%);
+  height: 205px;
+}

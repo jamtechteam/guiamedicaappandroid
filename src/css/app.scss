@@ -1,0 +1,137 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: 'fontRegular';
+  src: url('./fonts/EINA/Eina03-Regular.ttf') format('truetype');
+}
+
+.my-font {
+  font-family: 'fontRegular';
+}
+
+@font-face {
+  font-family: fontBold;
+  src: url('./fonts/EINA/Eina03-Bold.ttf') format('truetype');
+}
+
+.my-font-bold {
+  font-family: 'fontBold';
+}
+
+@font-face {
+  font-family: fontLight;
+  src: url('./fonts/EINA/Eina03-Light.ttf') format('truetype');
+}
+
+.my-font-light {
+  font-family: 'fontLight';
+}
+
+// semibold
+@font-face {
+  font-family: fontSemiBold;
+  src: url('./fonts/EINA/Eina03-SemiBold.ttf') format('truetype');
+}
+
+.my-font-semi-bold {
+  font-family: 'fontSemiBold';
+}
+
+.default-screen-padding {
+  padding: 0 10px;
+}
+
+.c-search-style {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  padding: 0 20px;
+  height: 40px;
+}
+
+.logo-header-banner {
+  width: 100.8px;
+  height: 83.98px;
+  object-fit: contain;
+}
+
+.relative {
+  position: relative;
+}
+
+// letter spacing 1px
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+// letter spacing 2px
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+// line height 1
+.lh-1 {
+  line-height: 1;
+}
+
+// line height 1.2
+.lh-1-2 {
+  line-height: 1.2;
+}
+
+// line height 1.5
+.lh-1-5 {
+  line-height: 1.5;
+}
+
+/* tamano fuente dinamico, dependiendo de lo que se reciba al llamarse desde las clases */
+.fs-6 {
+  font-size: 6px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.location-azul {
+  position: relative;
+  width: auto;
+  height: 32px;
+  color: #0573d9;
+  border-radius: 20px;
+  background-color: #1773c34b;
+}
+
+.location-verde {
+  position: relative;
+  width: auto;
+  height: 32px;
+  color: #009800;
+  background-color: #00ad0014;
+  border-radius: 20px;
+  font-size: 14px;
+}

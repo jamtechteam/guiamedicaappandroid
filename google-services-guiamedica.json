@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439208975591",
+    "project_id": "notificaciones-jamtech-001",
+    "storage_bucket": "notificaciones-jamtech-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439208975591:android:0accb0503eb13a8c2c1642",
+        "android_client_info": {
+          "package_name": "io.app.guiamedicavenezuelaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439208975591-m7a2f1r8bra20onb79t5o6532haeh4fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB5cu_3Qf9ue5sHks6neFzrkr4XqeaLiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439208975591-m7a2f1r8bra20onb79t5o6532haeh4fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

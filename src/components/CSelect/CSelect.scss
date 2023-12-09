@@ -1,0 +1,27 @@
+.c-select-style {
+  border: 1px solid #e5e5e5 !important;
+  background: #ffffff !important;
+  border-radius: 5px;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 14px;
+  color: #000000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.c-select-style-focus {
+  border: 1px solid #146b31 !important;
+  background: #ffffff !important;
+  border-radius: 5px;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 14px;
+  color: #000000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.c-select-popup {
+  height: auto;
+  max-height: 200px;
+}
