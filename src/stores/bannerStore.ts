@@ -15,7 +15,7 @@ export const useBannerStore = defineStore('bannerStore', () => {
   const bannersPosition = ref<IBanner[]>([]);
 
   const getBanners = async (state: string) => {
-    const { data } = await http.get<IBanner[]>(`${route}?state=${state}`);
+    const { data } = await http.get<IBanner[]>(`${route}/positions?state=${state}`);
     banners.value = data;
     return data;
   };

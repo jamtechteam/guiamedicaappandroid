@@ -74,16 +74,17 @@ const searchData = computed(() => {
 const getDoctorHomeCare = async () => {
   Loading.show();
   isLoading.value = true;
-  // const locate: any = locationStore.getStorage();
+  const locate: any = locationStore.getStorage();
+  const state = locate.state;
   try {
     let res: any;
     if (isAllCities.value) {
-      res = await doctorStore.getDoctorsHomeCare();
+      res = await doctorStore.getDoctorsHomeCare(null, state);
     } else {
       const { actualFilterCityId } = route.query as {
         actualFilterCityId: string;
       };
-      res = await doctorStore.getDoctorsHomeCare(actualFilterCityId);
+      res = await doctorStore.getDoctorsHomeCare(actualFilterCityId, state);
     }
     data.value = res;
   } catch (error) {

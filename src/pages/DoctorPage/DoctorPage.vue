@@ -387,7 +387,7 @@ onMounted(async () => {
                 class="text-left q-pt-sm my-font-semibold"
                 style="font-weight: 400px; color: #747474; font-size: 15.36px"
               >
-                {{ transformServices(doctor.services) }}.
+                {{ transformServices(doctor.services) }}
               </div>
             </section>
           </q-tab-panel>

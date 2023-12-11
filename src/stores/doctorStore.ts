@@ -20,15 +20,15 @@ export const useDoctorStore = defineStore('doctorStore', () => {
     return data;
   };
 
-  const getDoctorsHomeCare = async (city?: string) => {
+  const getDoctorsHomeCare = async (city?: string, state?: string) => {
     if (city) {
       const { data } = await http.get<IDoctor[]>(
-        `${route}/service/home-care?city=${city}`
+        `${route}/service/home-care?city=${city}&state=${state}`
       );
       doctors.value = data;
       return data;
     } else {
-      const { data } = await http.get<IDoctor[]>(`${route}/service/home-care`);
+      const { data } = await http.get<IDoctor[]>(`${route}/service/home-care?state=${state}`);
       doctors.value = data;
       return data;
     }

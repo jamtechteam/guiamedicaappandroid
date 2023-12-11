@@ -17,7 +17,7 @@ const slide = ref(1);
     >
       <q-carousel-slide :name="1" class="column no-wrap flex-center q-px-lg">
         <div class="tuto-img-1" />
-        <div class="text-bold text-h6">Como usar la aplicación</div>
+        <div class="text-h6 my-font text-bold">Como usar la aplicación</div>
         <div
           class="q-pt-sm text-caption text-grey-9 my-font-light q-px-lg text-center subtitle-text"
         >
@@ -27,7 +27,7 @@ const slide = ref(1);
       </q-carousel-slide>
       <q-carousel-slide :name="2" class="column no-wrap flex-center q-px-lg">
         <div class="tuto-img-2" />
-        <div class="text-bold text-h6">Agregar a favoritos</div>
+        <div class="text-bold text-h6 my-font">Agregar a favoritos</div>
         <div
           class="q-pt-sm text-caption text-grey-9 my-font-light q-px-lg text-center subtitle-text"
         >
@@ -36,7 +36,7 @@ const slide = ref(1);
       </q-carousel-slide>
       <q-carousel-slide :name="3" class="column no-wrap flex-center q-px-lg">
         <div class="tuto-img-3" />
-        <div class="text-bold text-h6">Filtrado por zonas</div>
+        <div class="text-bold text-h6 my-font">Filtrado por zonas</div>
         <div
           class="q-pt-sm text-caption text-grey-9 my-font-light q-px-lg text-center subtitle-text"
         >
@@ -45,7 +45,7 @@ const slide = ref(1);
         </div>
       </q-carousel-slide>
       <q-carousel-slide :name="4" class="column no-wrap flex-center q-px-lg q-pb-sm">
-        <div style="font-size: 21px;font-weight: 700px;" class="text-bold">¡Listo!</div>
+        <div style="font-size: 21px;font-weight: 700px;" class="text-bold my-font">¡Listo!</div>
         <div
           class="q-pt-sm text-caption text-grey-9 my-font-light q-px-lg text-center q-pb-lg subtitle-text"
         >
