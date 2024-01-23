@@ -76,7 +76,7 @@ onMounted(() => {
           <q-btn icon="arrow_back" color="white" flat @click="goBack" rounded />
           <q-btn
             @click="handleClickOpenWhatsapp"
-            v-if="consultingRoom"
+            v-if="consultingRoom && consultingRoom.whatsapp"
             flat
             icon-right="img:iconos/icons-tab-profile/whatsapp.svg"
             label="Contacto"
@@ -85,7 +85,10 @@ onMounted(() => {
             class="text-bold"
             style="font-weight: 100px; font-size: 16px"
           />
-          <q-skeleton v-else type="QBtn" />
+          <q-skeleton
+            v-else-if="!consultingRoom"
+            type="QBtn"
+          />
         </div>
       </section>
     </div>
@@ -162,7 +165,7 @@ onMounted(() => {
                 padding: 6px 10px 4px 10px;
                 letter-spacing: 2.2px;
                 border-radius: 7px;
-                margin-left: -1px !important;
+                margin-left: -2px !important;
               "
             >
               Horario de trabajo
@@ -176,7 +179,7 @@ onMounted(() => {
               />
             </section>
 
-            <q-chip
+            <!-- <q-chip
               class="text-uppercase text-white text-bold ls-1 fs-14 q-mt-md"
               square
               label="Dirección"
@@ -189,14 +192,26 @@ onMounted(() => {
                 padding: 6px 10px 4px 10px;
                 letter-spacing: 2.2px;
                 border-radius: 7px;
-                margin-left: -1px !important;
               "
-            />
+            /> -->
+
+            <div
+              class="text-white text-bold ls-1 q-mt-md"
+              :style="{
+                background: 'rgb(46, 109, 175)',
+                borderRadius: '7px',
+                width: 'fit-content',
+                padding: '6px 10px 4px 10px',
+                fontSize: '14.4px',
+              }"
+            >
+              DIRECCIÓN
+            </div>
 
             <section
               v-if="consultingRoom"
-              class="q-pt-xs"
-              style="color: #7c7c7c; font-size: 15.36px"
+              class="q-pt-sm"
+              style="color: #7c7c7c; font-size: 15.36px; margin-top: 2px"
             >
               {{ consultingRoom.address }}
             </section>
@@ -214,6 +229,7 @@ onMounted(() => {
                 padding: 6px 10px 4px 10px;
                 letter-spacing: 2.2px;
                 border-radius: 7px;
+                margin-left: -1px !important;
               "
             />
 
@@ -222,7 +238,7 @@ onMounted(() => {
                 class="text-left fs-16 q-pt-sm my-font-semibold"
                 style="font-size: 15.36px; color: #7c7c7c"
               >
-                {{ transformServices(consultingRoom.services) }}.
+                {{ transformServices(consultingRoom.services) }}
               </div>
             </section>
           </q-tab-panel>
@@ -235,7 +251,16 @@ onMounted(() => {
               class="text-uppercase text-white text-bold ls-1 fs-14 q-mt-lg"
               square
               label="Contacto"
-              style="font-size: 14.4px; font-weight: 500px; background: #2e6daf"
+              style="
+                font-size: 14.4px;
+                font-weight: 500px;
+                background: #2e6daf;
+                line-height: 14.28px;
+                height: 27.28px;
+                padding: 6px 10px 4px 10px;
+                letter-spacing: 2.2px;
+                border-radius: 7px;
+              "
             />
 
             <section class="row q-pt-sm" v-if="consultingRoom">
@@ -327,7 +352,7 @@ onMounted(() => {
               </section>
             </section>
 
-            <q-chip
+            <!-- <q-chip
               v-if="consultingRoom && consultingRoom.email"
               class="text-uppercase text-white text-bold ls-1 q-mt-md"
               square
@@ -342,7 +367,22 @@ onMounted(() => {
                 letter-spacing: 2.2px;
                 border-radius: 7px;
               "
-            />
+            /> -->
+
+            <div
+              v-if="consultingRoom && consultingRoom.email"
+              class="text-white text-bold ls-1 q-mt-md flex flex-center"
+              :style="{
+                background: 'rgb(46, 109, 175)',
+                borderRadius: '7px',
+                width: 'fit-content',
+                padding: '5px 10px 4px 10px',
+                fontSize: '14.4px',
+
+              }"
+            >
+              CORREO ELECTRÓNICO
+            </div>
 
             <section
               class="row q-pt-sm"
@@ -367,7 +407,7 @@ onMounted(() => {
               v-if="consultingRoom.website"
               class="text-uppercase text-white text-bold ls-1 q-mt-md"
               square
-              label="PÁGdenilINA WEB"
+              label="PÁGINA WEB"
               style="
                 font-size: 14.4px;
                 font-weight: 500px;
