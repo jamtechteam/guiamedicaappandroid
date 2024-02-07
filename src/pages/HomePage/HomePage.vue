@@ -10,6 +10,7 @@ import CTitle from 'src/components/CTitle/CTitle.vue';
 import CCategoriesBanner from 'src/components/CategoriesApp/CCategoriesBanner.vue';
 import CardItemDoctor from 'src/components/Doctor/CardItemDoctor/CardItemDoctor.vue';
 import CTutorial from 'src/components/Tutorial/CTutorial.vue';
+import CPromotionSlider from 'src/components/Promotion/CPromotionSlider/CPromotionSlider.vue';
 
 import { useDoctorStore } from 'src/stores/doctorStore';
 import { useLocationStore } from 'src/stores/locationStore';
@@ -171,7 +172,7 @@ onMounted(() => {
     <!-- Promociones section -->
     <section
       v-if="promotion && promotion.status"
-      class="q-pt-md"
+      class="q-pt-sm"
     >
       <section class="column q-px-md">
         <c-title
@@ -184,7 +185,7 @@ onMounted(() => {
           style="letter-spacing: 0.25px"
         />
         <c-title
-          title="Promo del momento"
+          title="Descuentos imperdibles"
           class="q-pt-sm ls-1"
           font-size="17"
           line-height="0"
@@ -193,17 +194,20 @@ onMounted(() => {
         />
       </section>
 
-      <section class="row q-pt-lg">
-        <q-img
-          @click="handleClickPromotion()"
-          :src="promotion.imageSrc"
-          class="full-width"
-          style="height: 200px"
+      <section
+        class="row q-pt-lg col-12"
+      >
+        <c-promotion-slider
+          class="col-12"
+          v-if="promotion"
         />
       </section>
     </section>
 
-    <section class="column q-pt-md q-px-md">
+    <section
+      class="column q-px-md"
+      :class="promotion && promotion.status ? '' : 'q-pt-md'"
+    >
       <c-title
         title="Recomendados"
         class="q-pt-sm my-font-bold ls-1"

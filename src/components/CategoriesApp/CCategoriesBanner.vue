@@ -31,6 +31,11 @@ const handleClickCategory = (category: ICategoryApp) => {
 const getCategories = async () => {
   try {
     const res = await categoryAppStore.getCategoriesAppCarousel();
+    const first = res[0][0]
+    const second = res[0][1]
+    // ahora colocar el primero en el segundo lugar y el segundo en el primer lugar
+    res[0][0] = second;
+    res[0][1] = first;
     categories.value = res;
   } catch {
     console.log('Error al obtener las categorias');

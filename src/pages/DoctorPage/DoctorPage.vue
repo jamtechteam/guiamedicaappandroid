@@ -354,7 +354,7 @@ onMounted(async () => {
                 margin-left: -1px !important;
               "
             >
-              Horario de trabajo
+              Horario de consulta
             </q-chip>
 
             <section class="q-pt-sm q-gutter-y-lg" v-if="doctor">
